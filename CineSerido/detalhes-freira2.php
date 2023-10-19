@@ -81,7 +81,7 @@ https://templatemo.com/tm-584-pod-talk
                                             110 Minutes
                                         </small>
 
-                                        <small class="ms-auto">Classificação de indicativa <span class="badge bg-warning">16</span></small>
+                                        <small class="ms-auto">Classificação indicativa <span class="badge bg-warning">16</span></small>
                                     </div>
 
                                     <h2 class="mb-2">A Freira 2</h2>
