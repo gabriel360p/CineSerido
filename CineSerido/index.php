@@ -15,9 +15,7 @@
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Sono:wght@200;300;400;500;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Sono:wght@200;300;400;500;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
@@ -100,6 +98,24 @@ https://templatemo.com/tm-584-pod-talk
 
                         <div class="owl-carousel owl-theme">
                             <div class="owl-carousel-info-wrap item">
+                                <img src="images/movies/3652817.webp" class="owl-carousel-image img-fluid" alt="">
+
+                                <div class="owl-carousel-info">
+                                    <h4 class="mb-2">
+                                        Vermelho Branco e Sangue Azul
+                                    </h4>
+
+                                    <span class="badge">Romance</span>
+
+                                    <!-- <span class="badge">Drama</span> -->
+
+                                    <!-- <span class="badge">Mistério</span> -->
+                                </div>
+
+                            </div>
+
+
+                            <div class="owl-carousel-info-wrap item">
                                 <img src="images/movies/AFreira2.webp" class="owl-carousel-image img-fluid" alt="">
 
                                 <div class="owl-carousel-info">
@@ -113,15 +129,10 @@ https://templatemo.com/tm-584-pod-talk
 
                                     <span class="badge">Mistério</span>
                                 </div>
-
                             </div>
 
-
-
-
                             <div class="owl-carousel-info-wrap item">
-                                <img src="images/movies/besouro_azul_poster.jpg" class="owl-carousel-image img-fluid"
-                                    alt="">
+                                <img src="images/movies/besouro_azul_poster.jpg" class="owl-carousel-image img-fluid" alt="">
 
                                 <div class="owl-carousel-info">
                                     <h4 class="mb-2">
@@ -132,7 +143,6 @@ https://templatemo.com/tm-584-pod-talk
 
                                     <span class="badge">Design</span>
                                 </div>
-
                             </div>
 
                             <div class="owl-carousel-info-wrap item">
@@ -181,8 +191,38 @@ https://templatemo.com/tm-584-pod-talk
 
                             <div class="">
                                 <a href="detalhes-freira2.php" class="custom-block-image-wrap">
-                                    <img src="images/movies/AFreira2.webp" style="width: 680px;" class=" img-fluid"
-                                        alt="">
+                                    <img src="images/movies/3652817.webp" style="width: 680px;" class=" img-fluid" alt="">
+                                </a>
+                            </div>
+
+                            <div class="custom-block-info">
+
+                                <div class="custom-block-top d-flex mb-1">
+                                    <small class="me-4">
+                                        <i class="bi-clock-fill custom-icon"></i>
+                                        120 Minutos
+                                    </small>
+                                </div>
+
+                                <h5 class="mb-2">
+                                    <a href="detalhes-freira2.php">
+                                        Vermelho Branco e Sangue Azul
+                                    </a>
+                                </h5>
+
+                                <p class="mb-0">
+                                    O filho do presidente, e do príncipe Henry da Grã-Bretanha, cuja rivalidade de longa data ameaça criar uma ruptura nas relações EUA-Reino Unido. Quando os rivais são forçados a uma trégua encenada, a sua relação gélida começa a derreter e o atrito entre eles desencadeia algo mais profundo do que alguma vez esperaram.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-12 mb-4 mb-lg-0">
+                        <div class="custom-block d-flex">
+
+                            <div class="">
+                                <a href="detalhes-freira2.php" class="custom-block-image-wrap">
+                                    <img src="images/movies/AFreira2.webp" style="width: 680px;" class=" img-fluid" alt="">
                                 </a>
                             </div>
 
@@ -215,8 +255,7 @@ https://templatemo.com/tm-584-pod-talk
 
                             <div class="">
                                 <a href="detail-page.html" class="custom-block-image-wrap">
-                                    <img src="images/movies/besouro_azul_poster.jpg" style="width: auto;"
-                                        class=" img-fluid" alt="">
+                                    <img src="images/movies/besouro_azul_poster.jpg" style="width: auto;" class=" img-fluid" alt="">
                                 </a>
                             </div>
 
@@ -280,8 +319,7 @@ https://templatemo.com/tm-584-pod-talk
 
                             <div class="">
                                 <a href="detail-page.html" class="custom-block-image-wrap">
-                                    <img src="images/movies/fnaf.jpg" style="width: auto"
-                                        class=" img-fluid" alt="">
+                                    <img src="images/movies/fnaf.jpg" style="width: auto" class=" img-fluid" alt="">
                                 </a>
                             </div>
 
@@ -326,8 +364,7 @@ https://templatemo.com/tm-584-pod-talk
                     <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
                         <div class="custom-block custom-block-overlay">
                             <a href="detail-page.html" class="custom-block-image-wrap">
-                                <img src="images/topics/physician-consulting-his-patient-clinic.jpg"
-                                    class="custom-block-image img-fluid" alt="">
+                                <img src="images/topics/physician-consulting-his-patient-clinic.jpg" class="custom-block-image img-fluid" alt="">
                             </a>
 
                             <div class="custom-block-info custom-block-overlay-info">
@@ -345,8 +382,7 @@ https://templatemo.com/tm-584-pod-talk
                     <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
                         <div class="custom-block custom-block-overlay">
                             <a href="detail-page.html" class="custom-block-image-wrap">
-                                <img src="images/topics/repairman-doing-air-conditioner-service.jpg"
-                                    class="custom-block-image img-fluid" alt="">
+                                <img src="images/topics/repairman-doing-air-conditioner-service.jpg" class="custom-block-image img-fluid" alt="">
                             </a>
 
                             <div class="custom-block-info custom-block-overlay-info">
@@ -364,8 +400,7 @@ https://templatemo.com/tm-584-pod-talk
                     <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
                         <div class="custom-block custom-block-overlay">
                             <a href="detail-page.html" class="custom-block-image-wrap">
-                                <img src="images/topics/woman-practicing-yoga-mat-home.jpg"
-                                    class="custom-block-image img-fluid" alt="">
+                                <img src="images/topics/woman-practicing-yoga-mat-home.jpg" class="custom-block-image img-fluid" alt="">
                             </a>
 
                             <div class="custom-block-info custom-block-overlay-info">
@@ -383,8 +418,7 @@ https://templatemo.com/tm-584-pod-talk
                     <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
                         <div class="custom-block custom-block-overlay">
                             <a href="detail-page.html" class="custom-block-image-wrap">
-                                <img src="images/topics/delicious-meal-with-sambal-arrangement.jpg"
-                                    class="custom-block-image img-fluid" alt="">
+                                <img src="images/topics/delicious-meal-with-sambal-arrangement.jpg" class="custom-block-image img-fluid" alt="">
                             </a>
 
                             <div class="custom-block-info custom-block-overlay-info">
@@ -418,8 +452,7 @@ https://templatemo.com/tm-584-pod-talk
                         <div class="custom-block custom-block-full">
                             <div class="custom-block-image-wrap">
                                 <a href="detail-page.html">
-                                    <img src="images/podcast/27376480_7326766.jpg" class="custom-block-image img-fluid"
-                                        alt="">
+                                    <img src="images/podcast/27376480_7326766.jpg" class="custom-block-image img-fluid" alt="">
                                 </a>
                             </div>
 
@@ -431,8 +464,7 @@ https://templatemo.com/tm-584-pod-talk
                                 </h5>
 
                                 <div class="profile-block d-flex">
-                                    <img src="images/profile/woman-posing-black-dress-medium-shot.jpg"
-                                        class="profile-block-image img-fluid" alt="">
+                                    <img src="images/profile/woman-posing-black-dress-medium-shot.jpg" class="profile-block-image img-fluid" alt="">
 
                                     <p>Elsa
                                         <strong>Influencer</strong>
@@ -472,8 +504,7 @@ https://templatemo.com/tm-584-pod-talk
                         <div class="custom-block custom-block-full">
                             <div class="custom-block-image-wrap">
                                 <a href="detail-page.html">
-                                    <img src="images/podcast/27670664_7369753.jpg" class="custom-block-image img-fluid"
-                                        alt="">
+                                    <img src="images/podcast/27670664_7369753.jpg" class="custom-block-image img-fluid" alt="">
                                 </a>
                             </div>
 
@@ -485,8 +516,7 @@ https://templatemo.com/tm-584-pod-talk
                                 </h5>
 
                                 <div class="profile-block d-flex">
-                                    <img src="images/profile/cute-smiling-woman-outdoor-portrait.jpg"
-                                        class="profile-block-image img-fluid" alt="">
+                                    <img src="images/profile/cute-smiling-woman-outdoor-portrait.jpg" class="profile-block-image img-fluid" alt="">
 
                                     <p>
                                         Taylor
@@ -528,8 +558,7 @@ https://templatemo.com/tm-584-pod-talk
                         <div class="custom-block custom-block-full">
                             <div class="custom-block-image-wrap">
                                 <a href="detail-page.html">
-                                    <img src="images/podcast/12577967_02.jpg" class="custom-block-image img-fluid"
-                                        alt="">
+                                    <img src="images/podcast/12577967_02.jpg" class="custom-block-image img-fluid" alt="">
                                 </a>
                             </div>
 
@@ -541,8 +570,7 @@ https://templatemo.com/tm-584-pod-talk
                                 </h5>
 
                                 <div class="profile-block d-flex">
-                                    <img src="images/profile/handsome-asian-man-listening-music-through-headphones.jpg"
-                                        class="profile-block-image img-fluid" alt="">
+                                    <img src="images/profile/handsome-asian-man-listening-music-through-headphones.jpg" class="profile-block-image img-fluid" alt="">
 
                                     <p>
                                         William
@@ -595,8 +623,7 @@ https://templatemo.com/tm-584-pod-talk
                         <h6>Subscribe. Every weekly.</h6>
 
                         <form class="custom-form subscribe-form" action="#" method="get" role="form">
-                            <input type="email" name="subscribe-email" id="subscribe-email" pattern="[^ @]*@[^ @]*"
-                                class="form-control" placeholder="Email Address" required="">
+                            <input type="email" name="subscribe-email" id="subscribe-email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Email Address" required="">
 
                             <div class="col-lg-12 col-12">
                                 <button type="submit" class="form-control" id="submit">Subscribe</button>
