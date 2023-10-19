@@ -64,7 +64,7 @@ https://templatemo.com/tm-584-pod-talk
 
                     <div class="col-lg-5 col-12 pe-lg-5">
                         <div class="contact-info">
-                            <h3 class="mb-4">Adoramos ajudar você. Entrer em contato:</h3>
+                            <h3 class="mb-4 text-white">Adoraríamos ajudar você, entre em contato:</h3>
 
                             <p class="d-flex border-bottom pb-3 mb-4">
                                 <strong class="d-inline me-4">Telefone:</strong>
