@@ -158,7 +158,7 @@ https://templatemo.com/tm-584-pod-talk
                                     <h4 class="mb-2">Five Nights at Freddy's</h4>
 
                                     <span class="badge">Terror</span>
-             
+
                                 </div>
 
                             </div>
@@ -171,7 +171,7 @@ https://templatemo.com/tm-584-pod-talk
         </section>
 
 
-    
+
         <section class="latest-podcast-section section-padding pb-0" id="section_2">
             <div class="container">
                 <div class="row justify-content-center">
@@ -206,7 +206,7 @@ https://templatemo.com/tm-584-pod-talk
                                     </a>
                                 </h5>
 
-                                <p class="mb-0">
+                                <p class="mb-0" style="font-size: 15px;">
                                     O filho do presidente, e do príncipe Henry da Grã-Bretanha, cuja rivalidade de longa data ameaça criar uma ruptura nas relações EUA-Reino Unido. Quando os rivais são forçados a uma trégua encenada, a sua relação gélida começa a derreter e o atrito entre eles desencadeia algo mais profundo do que alguma vez esperaram.
                                 </p>
                             </div>
@@ -246,7 +246,7 @@ https://templatemo.com/tm-584-pod-talk
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-12 mb-4 mb-lg-0">
+                    <div class="col-lg-6 col-12 mb-4 mb-lg-0 mt-3">
                         <div class="custom-block d-flex">
 
                             <div class="">
@@ -353,40 +353,41 @@ https://templatemo.com/tm-584-pod-talk
 
                     <div class="col-lg-12 col-12">
                         <div class="section-title-wrap mb-5">
-                            <h4 class="section-title">Em Breve</h4>
+                            <h5  class="section-title">Em Breve</h5>
                         </div>
                     </div>
 
+
                     <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
                         <div class="custom-block custom-block-overlay">
-                            <a href="detail-page.html" class="custom-block-image-wrap">
-                                <img src="images/soon/marvels.jpg" class="custom-block-image img-fluid"  alt="">
-                            </a>
+                            <span href="detail-page.html" class="custom-block-image-wrap">
+                                <img src="images/soon/marvels.jpg" class="custom-block-image img-fluid" alt="">
+                            </span>
 
                             <div class="custom-block-info custom-block-overlay-info">
-                                <h5 class="mb-1">
-                                    <a href="listing-page.html">
+                                <h5 style="color:red;" class="mb-1">
+                                    <span href="listing-page.html">
                                         As Marvels
-                                    </a>
+                                    </span>
                                 </h5>
 
                                 <p class="badge mb-0"> Aventura/Ação </p>
                             </div>
                         </div>
                     </div>
-                    
+
 
                     <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
                         <div class="custom-block custom-block-overlay">
-                            <a href="detail-page.html" class="custom-block-image-wrap">
+                            <span href="detail-page.html" class="custom-block-image-wrap">
                                 <img src="images/soon/madame_web.jpeg" class="custom-block-image img-fluid" alt="">
-                            </a>
+                            </span>
 
                             <div class="custom-block-info custom-block-overlay-info">
-                                <h5 class="mb-1">
-                                    <a href="listing-page.html">
+                                <h5 style="color:red;" class="mb-1">
+                                    <span href="listing-page.html">
                                         Madame Web
-                                    </a>
+                                    </span>
                                 </h5>
 
                                 <p class="badge mb-0">Ficção científica/Aventura</p>
@@ -396,15 +397,15 @@ https://templatemo.com/tm-584-pod-talk
 
                     <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
                         <div class="custom-block custom-block-overlay">
-                            <a href="detail-page.html" class="custom-block-image-wrap">
+                            <span href="detail-page.html" class="custom-block-image-wrap">
                                 <img src="images/soon/spiderman.webp" class="custom-block-image img-fluid" alt="">
-                            </a>
+                            </span>
 
                             <div class="custom-block-info custom-block-overlay-info">
-                                <h5 class="mb-1">
-                                    <a href="listing-page.html" style="font-size: 20px;">
-                                    Homem-Aranha: Além do Aranhaverso
-                                    </a>
+                                <h5 style="color:red;" class="mb-1">
+                                    <span href="listing-page.html" style="font-size: 20px;">
+                                        Homem-Aranha: Além do Aranhaverso
+                                    </span>
                                 </h5>
 
                                 <p class="badge mb-0">Ação/Aventura</p>
@@ -414,15 +415,15 @@ https://templatemo.com/tm-584-pod-talk
 
                     <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
                         <div class="custom-block custom-block-overlay">
-                            <a href="detail-page.html" class="custom-block-image-wrap">
+                            <span href="detail-page.html" class="custom-block-image-wrap">
                                 <img src="images/soon/wonka.webp" class="custom-block-image img-fluid" alt="">
-                            </a>
+                            </span>
 
                             <div class="custom-block-info custom-block-overlay-info">
-                                <h5 class="mb-1">
-                                    <a href="listing-page.html">
+                                <h5 style="color:red;" class="mb-1">
+                                    <span href="listing-page.html">
                                         Wonka
-                                    </a>
+                                    </span>
                                 </h5>
 
                                 <p class="badge mb-0">Fantasia/Aventura</p>
@@ -441,7 +442,7 @@ https://templatemo.com/tm-584-pod-talk
 
                     <div class="col-lg-12 col-12">
                         <div class="section-title-wrap mb-5">
-                            <h4 class="section-title">Especial Halloween</h4>
+                            <h4 class="section-title">Não Perca!</h4>
                         </div>
                     </div>
 

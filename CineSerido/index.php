@@ -2,14 +2,24 @@
 $uri = $_SERVER['REQUEST_URI'];
 
 switch ($uri) {
-    //página inicial
+        //página inicial
     case '/':
         require 'dashboard.php';
         die();
         break;
 
 
-    //páginas que mostram detalhes dos filmes
+    case '/contato':
+        require 'contact.php';
+        die();
+        break;
+
+    case '/sobre':
+        require 'about.php';
+        die();
+        break;
+
+        //páginas que mostram detalhes dos filmes
     case '/detalhes/a-freira2':
         require 'detalhes-freira2.php';
         die();
@@ -36,8 +46,8 @@ switch ($uri) {
         break;
 
 
-    //Erro 404
+        //Erro 404
     default:
-        echo "Recurso: '".$uri."' não encontrado - 404";
+        echo "Recurso: '" . $uri . "' não encontrado - 404";
         break;
 }

@@ -612,7 +612,7 @@ main {
 -----------------------------------------*/
 .custom-block {
   /* border: 2px solid var(--primary-color); */
-  border: 2px solid red;
+  border: 2px solid white;
   border-radius: var(--border-radius-medium);
   position: relative;
   overflow: hidden;
@@ -974,8 +974,7 @@ main {
 }
 
 .custom-form button[type="submit"] {
-  background: var(--custom-btn-bg-color);
-  /* background: red; */
+  background: red;
   border: none;
   border-radius: var(--border-radius-large);
   color: var(--white-color);
@@ -989,7 +988,7 @@ main {
 .custom-form button[type="submit"]:hover,
 .custom-form button[type="submit"]:focus {
   /* background: var(--custom-btn-bg-hover-color); */
-  background: var(--custom-btn-bg-hover-color);
+  background: #F4C121;
   border-color: transparent;
 }
 
