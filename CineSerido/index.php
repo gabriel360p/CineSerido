@@ -364,17 +364,36 @@ https://templatemo.com/tm-584-pod-talk
                     <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
                         <div class="custom-block custom-block-overlay">
                             <a href="detail-page.html" class="custom-block-image-wrap">
-                                <img src="images/topics/physician-consulting-his-patient-clinic.jpg" class="custom-block-image img-fluid" alt="">
+                                <img src="images/soon/marvels.jpg" class="custom-block-image img-fluid"  alt="">
                             </a>
 
                             <div class="custom-block-info custom-block-overlay-info">
                                 <h5 class="mb-1">
                                     <a href="listing-page.html">
-                                        Productivity
+                                        As Marvels
                                     </a>
                                 </h5>
 
-                                <p class="badge mb-0">50 Episodes</p>
+                                <p class="badge mb-0"> Aventura/Ação </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
+                        <div class="custom-block custom-block-overlay">
+                            <a href="detail-page.html" class="custom-block-image-wrap">
+                                <img src="images/soon/madame_web.jpeg" class="custom-block-image img-fluid" alt="">
+                            </a>
+
+                            <div class="custom-block-info custom-block-overlay-info">
+                                <h5 class="mb-1">
+                                    <a href="listing-page.html">
+                                        Madame Web
+                                    </a>
+                                </h5>
+
+                                <p class="badge mb-0">Ficção científica/Aventura</p>
                             </div>
                         </div>
                     </div>
@@ -382,17 +401,17 @@ https://templatemo.com/tm-584-pod-talk
                     <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
                         <div class="custom-block custom-block-overlay">
                             <a href="detail-page.html" class="custom-block-image-wrap">
-                                <img src="images/topics/repairman-doing-air-conditioner-service.jpg" class="custom-block-image img-fluid" alt="">
+                                <img src="images/soon/spiderman.webp" class="custom-block-image img-fluid" alt="">
                             </a>
 
                             <div class="custom-block-info custom-block-overlay-info">
                                 <h5 class="mb-1">
-                                    <a href="listing-page.html">
-                                        Technician
+                                    <a href="listing-page.html" style="font-size: 20px;">
+                                    Homem-Aranha: Além do Aranhaverso
                                     </a>
                                 </h5>
 
-                                <p class="badge mb-0">12 Episodes</p>
+                                <p class="badge mb-0">Ação/Aventura</p>
                             </div>
                         </div>
                     </div>
@@ -400,35 +419,17 @@ https://templatemo.com/tm-584-pod-talk
                     <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
                         <div class="custom-block custom-block-overlay">
                             <a href="detail-page.html" class="custom-block-image-wrap">
-                                <img src="images/topics/woman-practicing-yoga-mat-home.jpg" class="custom-block-image img-fluid" alt="">
+                                <img src="images/soon/wonka.webp" class="custom-block-image img-fluid" alt="">
                             </a>
 
                             <div class="custom-block-info custom-block-overlay-info">
                                 <h5 class="mb-1">
                                     <a href="listing-page.html">
-                                        Mindfullness
+                                        Wonka
                                     </a>
                                 </h5>
 
-                                <p class="badge mb-0">35 Episodes</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
-                        <div class="custom-block custom-block-overlay">
-                            <a href="detail-page.html" class="custom-block-image-wrap">
-                                <img src="images/topics/delicious-meal-with-sambal-arrangement.jpg" class="custom-block-image img-fluid" alt="">
-                            </a>
-
-                            <div class="custom-block-info custom-block-overlay-info">
-                                <h5 class="mb-1">
-                                    <a href="listing-page.html">
-                                        Cooking
-                                    </a>
-                                </h5>
-
-                                <p class="badge mb-0">12 Episodes</p>
+                                <p class="badge mb-0">Fantasia/Aventura</p>
                             </div>
                         </div>
                     </div>

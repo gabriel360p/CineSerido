@@ -121,12 +121,14 @@ button {
 
 a {
   display: inline-block;
-  color: var(--primary-color);
+  /* color: var(--primary-color); */
+  color: red;
   text-decoration: none;
 }
 
 a:hover {
-  color: var(--link-hover-color);
+  /* color: var(--link-hover-color); */
+  color: #F4C121;
 }
 
 b,
@@ -203,7 +205,8 @@ main {
   CUSTOM ICON COLOR               
 -----------------------------------------*/
 .custom-icon {
-  color: var(--primary-color);
+  /* color: var(--primary-color); */
+  color: red;
 }
 
 
@@ -211,7 +214,8 @@ main {
   CUSTOM BUTTON               
 -----------------------------------------*/
 .custom-btn {
-  background: var(--custom-btn-bg-color);
+  /* background: var(--custom-btn-bg-color); */
+  background: red;
   border: 2px solid transparent;
   border-radius: var(--border-radius-large);
   color: var(--white-color);
@@ -224,7 +228,8 @@ main {
 }
 
 .custom-btn:hover {
-  background: var(--custom-btn-bg-hover-color);
+  /* background: var(--custom-btn-bg-hover-color); */
+  background: #F4C121;
   color: var(--white-color);
 }
 
@@ -250,7 +255,8 @@ main {
   SITE HEADER              
 -----------------------------------------*/
 .site-header {
-  background-image: url('../images/back4.jpeg'), linear-gradient(#348CD2, #FFFFFF);;
+  /* background-image: url('../images/back4.jpeg'), linear-gradient(#348CD2, #FFFFFF);; */
+  background-color: black;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -322,8 +328,11 @@ main {
 
 .navbar-nav .nav-link.active, 
 .navbar-nav .nav-link:hover {
-  color: var(--secondary-color);
+  /* color: var(--secondary-color); */
+  color: red;
 }
+
+
 
 .navbar .dropdown-menu {
   background: var(--white-color);
@@ -476,7 +485,8 @@ main {
   CAROUSEL        
 -----------------------------------------*/
 .hero-section {
-  background-image: url('../images/back4.jpeg') /*,linear-gradient(#348CD2, #FFFFFF)*/;
+  /* background-image: url('../images/back4.jpeg') ,linear-gradient(#348CD2, #FFFFFF); */
+  background-color: black;
   background-repeat: no-repeat;
   background-size: 108% 76%;
   background-position: top;
@@ -531,7 +541,8 @@ main {
 }
 
 .badge {
-  background-color: var(--custom-btn-bg-color);
+  /* background-color: var(--custom-btn-bg-color); */
+  background-color: red;
   font-family: var(--title-font-family);
   border-radius: var(--border-radius-large);
   color: var(--white-color);
@@ -591,7 +602,8 @@ main {
 
 .owl-theme .owl-dots .owl-dot.active span, 
 .owl-theme .owl-dots .owl-dot:hover span {
-  background: var(--secondary-color);
+  /* background: var(--secondary-color); */
+  background: red;
 }
 
 
@@ -599,7 +611,8 @@ main {
   CUSTOM BLOCK              
 -----------------------------------------*/
 .custom-block {
-  border: 2px solid var(--primary-color);
+  /* border: 2px solid var(--primary-color); */
+  border: 2px solid red;
   border-radius: var(--border-radius-medium);
   position: relative;
   overflow: hidden;
@@ -962,6 +975,7 @@ main {
 
 .custom-form button[type="submit"] {
   background: var(--custom-btn-bg-color);
+  /* background: red; */
   border: none;
   border-radius: var(--border-radius-large);
   color: var(--white-color);
@@ -974,6 +988,7 @@ main {
 
 .custom-form button[type="submit"]:hover,
 .custom-form button[type="submit"]:focus {
+  /* background: var(--custom-btn-bg-hover-color); */
   background: var(--custom-btn-bg-hover-color);
   border-color: transparent;
 }
@@ -1005,7 +1020,8 @@ main {
 -----------------------------------------*/
 .site-footer {
   /* background-image: url('../images/templatemo-wave-footer.jpg'), linear-gradient(#FFFFFF, #348CD2); */
-  background-image: url('../images/back4.jpeg'), linear-gradient(#348CD2, #FFFFFF);;
+  /* background-image: url('../images/back4.jpeg'), linear-gradient(#348CD2, #FFFFFF);; */
+  background-color: black;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1081,6 +1097,7 @@ main {
 
 .social-icon-link {
   background: var(--secondary-color);
+  background: red;
   border-radius: var(--border-radius-large);
   color: var(--white-color);
   font-size: var(--p-font-size);
@@ -1094,7 +1111,7 @@ main {
 }
 
 .social-icon-link:hover {
-  background: var(--primary-color);
+  background: #F4C121;
   color: var(--white-color);
 }
 
