@@ -171,7 +171,6 @@ https://templatemo.com/tm-584-pod-talk
         </section>
 
 
-
         <section class="latest-podcast-section section-padding pb-0" id="section_2">
             <div class="container">
                 <div class="row justify-content-center">
@@ -191,22 +190,22 @@ https://templatemo.com/tm-584-pod-talk
                                 </a>
                             </div>
 
-                            <div class="custom-block-info">
+                            <div class="custom-block-info" id="block-info">
 
                                 <div class="custom-block-top d-flex mb-1">
                                     <small class="me-4">
-                                        <i class="bi-clock-fill custom-icon"></i>
+                                        <i  style="color: orange;" class="bi-clock-fill custom-icon"></i>
                                         120 Minutos
                                     </small>
                                 </div>
 
-                                <h5 class="mb-2">
-                                    <a href="/detalhes/vermelho-branco-sangue-azul">
+                                <h5 class="mb-2" id="movie-title">
+                                    <a href="/detalhes/vermelho-branco-sangue-azul" style="color:#b5121b;">
                                         Vermelho Branco e Sangue Azul
                                     </a>
                                 </h5>
 
-                                <p class="mb-0" style="font-size: 15px;">
+                                <p class="mb-0" style="font-size: 15px;" id="teste">
                                     O filho do presidente, e do príncipe Henry da Grã-Bretanha, cuja rivalidade de longa data ameaça criar uma ruptura nas relações EUA-Reino Unido. Quando os rivais são forçados a uma trégua encenada, a sua relação gélida começa a derreter e o atrito entre eles desencadeia algo mais profundo do que alguma vez esperaram.
                                 </p>
                             </div>
@@ -225,19 +224,19 @@ https://templatemo.com/tm-584-pod-talk
                             <div class="custom-block-info">
 
                                 <div class="custom-block-top d-flex mb-1">
-                                    <small class="me-4">
-                                        <i class="bi-clock-fill custom-icon"></i>
+                                    <small class="me-4"  style="color: black;">
+                                        <i class="bi-clock-fill custom-icon" style="color:orange;"></i>
                                         110 Minutos
                                     </small>
                                 </div>
 
                                 <h5 class="mb-2">
-                                    <a href="/detalhes/a-freira2">
+                                    <a href="/detalhes/a-freira2" style="color:#B5121B;">
                                         A Freira 2
                                     </a>
                                 </h5>
 
-                                <p class="mb-0">
+                                <p class="mb-0" style="color:black;">
                                     Em 1956, na França, um padre é assassinado e parece que um mal está se espalhando.
                                     Determinada a deter o maligno, irmã Irene mais uma vez fica cara a cara com uma
                                     força demoníaca.
@@ -246,37 +245,6 @@ https://templatemo.com/tm-584-pod-talk
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-12 mb-4 mb-lg-0 mt-3">
-                        <div class="custom-block d-flex">
-
-                            <div class="">
-                                <a href="/detalhes/besouro-azul" class="custom-block-image-wrap">
-                                    <img src="images/movies/besouro_azul_poster.jpg" style="width: auto;" class=" img-fluid" alt="">
-                                </a>
-                            </div>
-
-                            <div class="custom-block-info">
-
-                                <div class="custom-block-top d-flex mb-1">
-                                    <small class="me-4">
-                                        <i class="bi-clock-fill custom-icon"></i>
-                                        127 Minutos
-                                    </small>
-                                </div>
-
-                                <h5 class="mb-2">
-                                    <a href="/detalhes/besouro-azul">
-                                        Besouro Azul
-                                    </a>
-                                </h5>
-
-                                <p class="mb-0">
-                                    O adolescente Jaime Reyes ganha superpoderes quando um misterioso escaravelho se
-                                    prende à sua coluna e lhe fornece uma poderosa armadura alienígena azul.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
 
                     <div class="col-lg-6 col-12 mb-4 mb-lg-0 mt-3">
                         <div class="custom-block d-flex">
