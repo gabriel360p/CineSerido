@@ -8,7 +8,9 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Pod Talk Free CSS Template by TemplateMo</title>
+    <title>CineSeridó - Guardiões da Galáxia 3</title>
+
+    <link rel="shortcut icon" href="http://localhost:8000/imgs/favicon.png" type="image/x-icon">
 
     <!-- CSS FILES -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -54,7 +56,7 @@ https://templatemo.com/tm-584-pod-talk
                             <div class="col-lg-3 col-12">
                                 <div class="custom-block-icon-wrap">
                                     <div class="custom-block-image-wrap custom-block-image-detail-page">
-                                        <img src="http://localhost:8000/images/movies/Ga3.jpg" class="img-fluid" alt="">
+                                        <img src="http://localhost:8000/imgs/movies/guardiosGalaxia3.jpg" class="img-fluid" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -64,7 +66,7 @@ https://templatemo.com/tm-584-pod-talk
                                     <div class="custom-block-top d-flex mb-1">
                                         <small>
                                             <i class="bi-clock-fill custom-icon"></i>
-                                            147 Minutes
+                                            147 Minutos
                                         </small>
 
                                         <small class="ms-auto"> <span class="badge bg-warning">14</span></small>
@@ -72,7 +74,7 @@ https://templatemo.com/tm-584-pod-talk
 
                                     <h2 class="mb-2" style="color: red;">  Guardiões da Galáxia: Volume 3</h2>
 
-                                    <p>Peter Quill deve reunir sua equipe para defender o universo e proteger um dos seus. Se a missão não for totalmente bem-sucedida, isso pode levar ao fim dos Guardiões.</p>
+                                    <p style="color: white; text-align: justify;">Peter Quill deve reunir sua equipe para defender o universo e proteger um dos seus. Se a missão não for totalmente bem-sucedida, isso pode levar ao fim dos Guardiões.</p>
 
                                 </div>
                             </div>

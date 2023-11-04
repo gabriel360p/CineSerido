@@ -8,7 +8,9 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Pod Talk Free CSS Template by TemplateMo</title>
+    <title>CineSeridó - A Freira 2</title>
+
+    <link rel="shortcut icon" href="http://localhost:8000/imgs/favicon.png" type="image/x-icon">
 
     <!-- CSS FILES -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -54,7 +56,7 @@ https://templatemo.com/tm-584-pod-talk
                             <div class="col-lg-3 col-12">   
                                 <div class="custom-block-icon-wrap">
                                     <div class="custom-block-image-wrap custom-block-image-detail-page">
-                                        <img src="http://localhost:8000/images/movies/AFreira2.webp" class="img-fluid" alt="">
+                                        <img src="http://localhost:8000/imgs/movies/Freira2.webp" class="img-fluid" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -64,7 +66,7 @@ https://templatemo.com/tm-584-pod-talk
                                     <div class="custom-block-top d-flex mb-1">
                                         <small>
                                             <i class="bi-clock-fill custom-icon"></i>
-                                            110 Minutes
+                                            110 Minutos
                                         </small>
 
                                         <small class="ms-auto">Classificação indicativa <span class="badge bg-warning">16</span></small>
@@ -72,7 +74,7 @@ https://templatemo.com/tm-584-pod-talk
 
                                     <h2 class="mb-2" style="color: red;">A Freira 2</h2>
 
-                                    <p>Em 1956, na França, um padre é assassinado e parece que um mal está se espalhando. Determinada a deter o maligno, irmã Irene mais uma vez fica cara a cara com uma força demoníaca.</p>
+                                    <p style="color: white; text-align: justify;">Em 1956, na França, um padre é assassinado e parece que um mal está se espalhando. Determinada a deter o maligno, irmã Irene mais uma vez fica cara a cara com uma força demoníaca.</p>
 
                                 </div>
                             </div>

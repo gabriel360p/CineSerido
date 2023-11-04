@@ -8,7 +8,9 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Pod Talk Free CSS Template by TemplateMo</title>
+    <title>CineSeridó - Vermelho, Branco e Sangue Azul</title>
+
+    <link rel="shortcut icon" href="http://localhost:8000/imgs/favicon.png" type="image/x-icon">
 
     <!-- CSS FILES -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -54,7 +56,7 @@ https://templatemo.com/tm-584-pod-talk
                             <div class="col-lg-3 col-12">
                                 <div class="custom-block-icon-wrap">
                                     <div class="custom-block-image-wrap custom-block-image-detail-page">
-                                        <img src="http://localhost:8000/images/movies/3652817.webp" class="img-fluid" alt="">
+                                        <img src="http://localhost:8000/imgs/movies/rwrb.jpg" class="img-fluid" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -64,7 +66,7 @@ https://templatemo.com/tm-584-pod-talk
                                     <div class="custom-block-top d-flex mb-1">
                                         <small>
                                             <i class="bi-clock-fill custom-icon"></i>
-                                            120 Minutes
+                                            120 Minutos
                                         </small>
 
                                         <small class="ms-auto"> <span class="badge bg-warning">16+</span></small>
@@ -72,7 +74,7 @@ https://templatemo.com/tm-584-pod-talk
 
                                     <h2 class="mb-2" style="color: red;">Vermelho branco e sangue azul</h2>
 
-                                    <p>A trama gira em torno do personagem de Alex Claremont-Diaz, filho da presidente dos Estados Unidos, e seu relacionamento com o príncipe Henry, um príncipe britânico, abordando temas de divergências políticas e também humor.</p>
+                                    <p style="color: white; text-align: justify;">Alex, o filho da presidenta dos Estados Unidos, se envolve em uma confusão com o príncipe britânico Henry, o que gera uma crise internacional de imagem. Os dois são grandes rivais, mas fingem que são amigos pelo bem de seus países. Porém, essa relação fria começa a derreter e dá lugar a um sentimento intenso e novo para os dois.</p>
 
                                 </div>
                             </div>

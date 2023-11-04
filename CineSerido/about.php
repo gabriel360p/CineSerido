@@ -51,7 +51,7 @@ https://templatemo.com/tm-584-pod-talk
 
                         <h2 class="mb-0">Sobre o Cine Seridó</h2>
                     </div>
-
+                     
                 </div>
             </div>
         </header>
@@ -67,12 +67,13 @@ https://templatemo.com/tm-584-pod-talk
                                 <h4 class="section-title">Nossa História</h4>
                             </div>
 
-                            <p>Pod Talk HTML CSS Template is made by Bootstrap v5.2.2 framework. You are allowed to
-                                modify and use this template for your business websites.</p>
-
-                            <p>You are not allowed to redistribute the downloadable template ZIP file on any other
-                                website without a permission. Please contact TemplateMo website for further information.
-                                Thank you.</p>
+                            <div class="textos" >
+                                <p style="color: white; text-align: justify;">Desde crianças, nós três compartilhávamos uma paixão que nos unia: filmes. Nossas tardes eram preenchidas com sessões de cinema caseiras, pipoca e muitas risadas. Crescemos juntos, mas a ideia de abrir um cinema em nossa cidade natal, Caicó, sempre pairou sobre nós.</p>
+                                <p style="color: white; text-align: justify;">O problema era que, naquela época, Caicó não tinha um cinema. Aquela lacuna em nossa cidade sempre nos incomodou, mas as circunstâncias da vida nos levaram por caminhos diferentes. No entanto, o sonho de ter um cinema nunca nos abandonou.</p>
+                                <p style="color: white; text-align: justify;">Após muitos anos, o destino nos trouxe de volta a Caicó. Nossas vidas haviam mudado, mas o sonho permanecia vivo. Decidimos que era hora de transformar esse sonho em realidade. Em 2021, nos tornamos empreendedores e abrimos o primeiro cinema de Caicó.</p>
+                                <p style="color: white; text-align: justify;">A jornada foi desafiadora, mas também incrivelmente recompensadora. O Cinema de Caicó não é apenas um lugar para assistir filmes; é um tributo à nossa amizade de infância, à determinação e ao compromisso que tivemos em fazer algo significativo para nossa comunidade.</p>
+                                <p style="color: white; text-align: justify;">Hoje, estamos orgulhosos de oferecer um local de entretenimento em Caicó, um espaço onde as pessoas podem se perder nas histórias na tela grande, rir, chorar e se emocionar juntas. Nosso cinema é mais do que um negócio; é a concretização de um sonho de infância que se tornou realidade graças à nossa perseverança e trabalho duro. Continuamos a unir a comunidade e a proporcionar momentos mágicos em nossa cidade natal. É uma jornada que jamais esqueceremos.</p>
+                            </div>
 
                             <img src="images/medium-shot-young-people-recording-podcast.jpg" class="about-image mt-5 img-fluid" alt="">
                         </div>
@@ -86,12 +87,11 @@ https://templatemo.com/tm-584-pod-talk
 
                     <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
                         <div class="team-thumb bg-white shadow-lg">
-                            <img src="images/profile/cute-smiling-woman-outdoor-portrait.jpg" class="about-image img-fluid" alt="">
 
                             <div class="team-info">
                                 <h4 class="mb-2">
                                     Ellen Karinne
-                                    <!-- <img src="images/verified.png" class="verified-image img-fluid" alt=""> -->
+                                    <img src="imgs/team/karinne.jpeg" class="verified-image img-fluid" alt="">
                                 </h4>
 
                                 <span class="badge">Modeling</span>
@@ -124,7 +124,7 @@ https://templatemo.com/tm-584-pod-talk
                             <div class="team-info">
                                 <h4 class="mb-2">
                                     José Salustiano
-                                    <!-- <img src="images/verified.png" class="verified-image img-fluid" alt=""> -->
+                                    <img src="imgs/team/jose3.jpeg" class="verified-image img-fluid" alt="">
                                 </h4>
 
                                 <span class="badge">Creative</span>
@@ -157,7 +157,7 @@ https://templatemo.com/tm-584-pod-talk
                             <div class="team-info">
                                 <h4 class="mb-2">
                                     Gabriel Costa
-                                    <!-- <img src="images/verified.png" class="verified-image img-fluid" alt=""> -->
+                                    <img src="imgs/team/gabriel.png" class="verified-image img-fluid" alt="">
                                 </h4>
 
                                 <span class="badge">Education</span>
