@@ -8,7 +8,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Pod Talk Free CSS Template by TemplateMo</title>
+    <title>CineSeridó</title>
+
 
     <!-- CSS FILES -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
