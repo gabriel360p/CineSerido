@@ -41,8 +41,7 @@ https://templatemo.com/tm-584-pod-talk
 
     <main>
 
-
-        <header class="" style="height: 150px; background-color:black;">
+        <header class="" style="height: 65px; background-color:black;">
             <?php require 'navbar.html'; ?>
         </header>
 
@@ -86,10 +85,10 @@ https://templatemo.com/tm-584-pod-talk
         </section>
 
 
-        <section class="related-podcast-section section-padding">
+        <section class="related-podcast-section section-padding bg-primary">
             <div class="container">
 
-            </div>
+        </div>
         </section>
     </main>
 
