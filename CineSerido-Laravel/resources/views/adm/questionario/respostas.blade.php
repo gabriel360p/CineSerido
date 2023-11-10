@@ -1,5 +1,8 @@
 @extends('layouts.master')
 @section('conteudo')
+    <link rel="shortcut icon" href="imgs/favicon.png" type="image/x-icon">
+
+
     <section class="hero-section">
         <div class="container">
             <div class="row">

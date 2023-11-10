@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <link rel="shortcut icon" href="imgs/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="{{asset('imgs/favicon.png')}}" type="image/x-icon">
 
     <title>CineSeridó</title>
 
