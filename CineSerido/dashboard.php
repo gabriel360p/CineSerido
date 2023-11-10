@@ -29,13 +29,6 @@
 
     <link href="css/templatemo-pod-talk.css" rel="stylesheet">
 
-    <!--
-
-TemplateMo 584 Pod Talk
-
-https://templatemo.com/tm-584-pod-talk
-
--->
 </head>
 
 <body>
@@ -144,7 +137,7 @@ https://templatemo.com/tm-584-pod-talk
                                 <a href="/detalhes/vermelho-branco-sangue-azul" class="custom-block-image-wrap"><img src="imgs/movies/rwrb.jpg" class=" img-fluid" alt=""></a>
                             </div>
 
-                            <div class="custom-block-info" id="block-info"  style="width: 70%; text-align: justify;">
+                            <div class="custom-block-info" id="block-info" style="width: 70%; text-align: justify;">
                                 <div class="custom-block-top d-flex mb-1">
                                     <small class="me-4"><i class="bi-clock-fill custom-icon"></i> 120 Minutos</small>
                                 </div>
@@ -164,7 +157,7 @@ https://templatemo.com/tm-584-pod-talk
 
                             <div class="custom-block-info" style="width: 70%; text-align: justify;">
                                 <div class="custom-block-top d-flex mb-1">
-                                    <small class="me-4" ><i class="bi-clock-fill custom-icon"></i> 110 Minutos</small>
+                                    <small class="me-4"><i class="bi-clock-fill custom-icon"></i> 110 Minutos</small>
                                 </div>
 
                                 <h5 class="mb-2"><a href="/detalhes/a-freira2">A Freira 2</a></h5>
@@ -222,7 +215,7 @@ https://templatemo.com/tm-584-pod-talk
 
                     <div class="col-lg-12 col-12">
                         <div class="section-title-wrap mb-5">
-                            <h5  class="section-title">Em Breve</h5>
+                            <h5 class="section-title">Em Breve</h5>
                         </div>
                     </div>
 
@@ -338,7 +331,7 @@ https://templatemo.com/tm-584-pod-talk
                                     <p>R$ 40,00</p>
                                 </div>
 
-                                <p class="mb-0">Balde de pipoca, 2 refrigerantes 350ml e chocolate em barra</p>           
+                                <p class="mb-0">Balde de pipoca, 2 refrigerantes 350ml e chocolate em barra</p>
                             </div>
                         </div>
                     </div>
@@ -373,7 +366,7 @@ https://templatemo.com/tm-584-pod-talk
     </main>
 
     <!-- <div class="container"> -->
-        <?php require 'footer.html'; ?>
+    <?php require 'footer.html'; ?>
     </div>
 
 
