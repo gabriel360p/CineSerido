@@ -36,11 +36,12 @@
 </head>
 
 <body>
+
     <nav class="navbar navbar-expand-lg">
         <div class="container">
-            <a class="navbar-brand me-lg-5 me-0" href="/">
+            <a class="navbar-brand me-lg-5 me-0" href="index.html">
                 <img src="http://localhost:8000/imgs/logo.png" class="logo-image img-fluid" alt=""
-                    style="width: 30%;">
+                    style="width: 140px;">
             </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -52,6 +53,7 @@
                 <ul class="navbar-nav ms-lg-auto">
                     <li class="nav-item">
                         <a class="nav-link active" href="/">Início</a>
+
                     </li>
 
                     <li class="nav-item">
@@ -61,6 +63,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/sobre">Sobre</a>
                     </li>
+
                     @auth
                         <li class="nav-item">
                             <a class="nav-link" href="/questionario">Questionário</a>
@@ -74,7 +77,6 @@
                             <a class="nav-link" href="/logout">Sair</a>
                         </li>
                     @endauth
-
                 </ul>
 
             </div>
@@ -121,11 +123,12 @@
 
                     <h6 class="site-footer-title mb-3">Avalie o CineSeridó!</h6>
 
-                    <p><strong class="d-inline me-2">Formulário:</strong><a href="/questionario">Acesse o questionário</a></p>
+                    <p><strong class="d-inline me-2">Formulário:</strong><a href="/questionario">Acesse o
+                            questionário</a></p>
 
                 </div>
 
-               
+
 
             </div>
         </div>

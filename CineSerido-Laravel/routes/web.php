@@ -21,6 +21,10 @@ Route::get('/', function () {
     return view('painel');
 });
 
+Route::get('/cadeira', function () {
+    return view('cadeira');
+});
+
 Route::get('/adm', [AdmController::class, 'login']);
 
 Route::controller(AdmController::class)->group(function () {
