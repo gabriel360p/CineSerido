@@ -5,6 +5,7 @@ use App\Http\Controllers\FilmeController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\QuestionarioController;
 use App\Http\Controllers\UtiliteController;
+use App\Models\Combo;
 use App\Models\Filme;
 use App\Models\Resposta;
 
@@ -20,7 +21,10 @@ use App\Models\Resposta;
 */
 
 Route::get('/', function () {
-    return view('painel',['filmes'=>Filme::all()]);
+    return view('painel',[
+        'filmes'=>Filme::all(),
+        'combos'=>Combo::all(),
+    ]);
 });
 
 Route::get('/cadeira', function () {

@@ -41,10 +41,23 @@
                                 <p style="color: white; text-align: justify;">{{ $filme->descricao }}</p>
 
                             </div>
+
+                            <h4 class="section-title mt-2 mb-2">Horários</h4>
+
+                            <div class="custom-block-info">
+                                <div class="custom-block-top d-flex mb-1">
+                                    <a href="" class="btn btn-danger">
+                                        {{ $filme->horario->data }}
+                                        <br>
+                                        {{ $filme->horario->hora }}
+                                    </a>
+                                </div>
+                            </div>
+                            </h4>
+
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>

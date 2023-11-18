@@ -16,4 +16,12 @@ class Filme extends Model
         'tempo',
         'classificacao_indicativa',
     ];
+
+
+
+    public function horario()
+    {
+        return $this->hasOne(Horario::class);
+    }
+
 }

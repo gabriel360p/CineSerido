@@ -99,8 +99,8 @@
                     <div class="col-lg-6 col-12 mb-4 mb-lg-0">
                         <div class="custom-block d-flex align-items-center">
                             <div style="width: 30%">
-                                <a href="{{route('filmes.detalhes',$filme->id)}}" class="custom-block-image-wrap"><img
-                                        src="{{ $filme->foto }}" class=" img-fluid" alt="{{$filme->titulo}}"></a>
+                                <a href="{{ route('filmes.detalhes', $filme->id) }}" class="custom-block-image-wrap"><img
+                                        src="{{ $filme->foto }}" class=" img-fluid" alt="{{ $filme->titulo }}"></a>
                             </div>
 
                             <div class="custom-block-info" id="block-info" style="width: 70%; text-align: justify;">
@@ -110,7 +110,7 @@
                                 </div>
 
                                 <h5 class="mb-2" id="movie-title"><a
-                                        href="{{route('filmes.detalhes',$filme->id)}}">{{ $filme->titulo }}</a>
+                                        href="{{ route('filmes.detalhes', $filme->id) }}">{{ $filme->titulo }}</a>
                                 </h5>
 
                                 <p class="mb-0" style="font-size: 15px;" id="teste">
@@ -145,7 +145,7 @@
                         </span>
 
                         <div class="custom-block-info custom-block-overlay-info">
-                            <h5 style="color:red;" class="mb-1"><span href="listing-page.html">As
+                            <h5 style="color:#B5121B;" class="mb-1"><span href="listing-page.html">As
                                     Marvels</span></h5>
 
                             <p class="badge mb-0"> Aventura/Ação </p>
@@ -161,7 +161,7 @@
                         </span>
 
                         <div class="custom-block-info custom-block-overlay-info">
-                            <h5 style="color:red;" class="mb-1"><span href="listing-page.html">Madame
+                            <h5 style="color:#B5121B;" class="mb-1"><span href="listing-page.html">Madame
                                     Web</span></h5>
 
                             <p class="badge mb-0">Ficção científica/Aventura</p>
@@ -176,7 +176,7 @@
                         </span>
 
                         <div class="custom-block-info custom-block-overlay-info">
-                            <h5 style="color:red;" class="mb-1"><span href="listing-page.html"
+                            <h5 style="color:#B5121B;" class="mb-1"><span href="listing-page.html"
                                     style="font-size: 20px;">Homem-Aranha: Além do Aranhaverso</span></h5>
 
                             <p class="badge mb-0">Ação/Aventura</p>
@@ -191,7 +191,7 @@
                         </span>
 
                         <div class="custom-block-info custom-block-overlay-info">
-                            <h5 style="color:red;" class="mb-1"><span href="listing-page.html">Wonka</span>
+                            <h5 style="color:#B5121B;" class="mb-1"><span href="listing-page.html">Wonka</span>
                             </h5>
 
                             <p class="badge mb-0">Fantasia/Aventura</p>
@@ -214,78 +214,31 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-12 mb-4 mb-lg-0">
-                    <div class="custom-block custom-block-full">
-                        <div class="custom-block-image-wrap">
-                            <a href="">
-                                <img src="imgs/combos/combo1.jpg" class="custom-block-image img-fluid" alt="">
-                            </a>
-                        </div>
-
-                        <div class="custom-block-info">
-                            <h5 class="mb-2">
+                @foreach ($combos as $combo)
+                    <div class="col-lg-4 col-12 mb-4 mb-lg-0">
+                        <div class="custom-block custom-block-full">
+                            <div class="custom-block-image-wrap">
                                 {{-- <a href=""> --}}
-                                Combo Kids
+                                <img src="{{ $combo->foto }}" class="custom-block-image img-fluid" alt="">
                                 {{-- </a> --}}
-                            </h5>
-
-                            <div class="profile-block d-flex">
-                                <p>R$ 20,00</p>
                             </div>
 
-                            <p class="mb-0">2 Pipocas P, 2 sucos, água 500ml e Bis.</p>
-                        </div>
-                    </div>
-                </div>
+                            <div class="custom-block-info">
+                                <h5 class="mb-2">
+                                    {{-- <a href=""> --}}
+                                    {{ $combo->titulo }}
+                                    {{-- </a> --}}
+                                </h5>
 
-                <div class="col-lg-4 col-12 mb-4 mb-lg-0">
-                    <div class="custom-block custom-block-full">
-                        <div class="custom-block-image-wrap">
-                            <a href="">
-                                <img src="imgs/combos/combo2.jpeg" class="custom-block-image img-fluid" alt="">
-                            </a>
-                        </div>
+                                <div class="profile-block d-flex">
+                                    <p>{{ $combo->preco }}</p>
+                                </div>
 
-                        <div class="custom-block-info">
-                            <h5 class="mb-2">
-                                {{-- <a href=""> --}}
-                                Combo Tradicional
-                                {{-- </a> --}}
-                            </h5>
-
-                            <div class="profile-block d-flex">
-                                <p>R$ 40,00</p>
+                                <p class="mb-0">{{ $combo->descricao }}</p>
                             </div>
-
-                            <p class="mb-0">Balde de pipoca, 2 refrigerantes 350ml e chocolate em barra</p>
                         </div>
                     </div>
-                </div>
-
-                <div class="col-lg-4 col-12">
-                    <div class="custom-block custom-block-full">
-                        <div class="custom-block-image-wrap">
-                            <a href="">
-                                <img src="imgs/combos/combo3.jpg" class="custom-block-image img-fluid" alt="">
-                            </a>
-                        </div>
-
-                        <div class="custom-block-info">
-                            <h5 class="mb-2">
-                                {{-- <a href=""> --}}
-                                Combo Premium
-                                {{-- </a> --}}
-                            </h5>
-
-                            <div class="profile-block d-flex">
-                                <p>R$ 60,00</p>
-                            </div>
-
-                            <p class="mb-0">Balde de pipoca, Pipoca P, 3 refrigerantes 350ml e chocolate em barra
-                            </p>
-                        </div>
-                    </div>
-                </div>
+                @endforeach
 
             </div>
         </div>

@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string("titulo");
             $table->string("descricao");
             $table->string("preco");
+            $table->text("foto");
             $table->timestamps();
         });
     }

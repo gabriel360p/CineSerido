@@ -3,6 +3,8 @@
 namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+
+use App\Models\Horario;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\Hash;
 
@@ -21,6 +23,8 @@ class DatabaseSeeder extends Seeder
 
         $this->call([
             FilmeSeed::class,
+            ComboSeed::class,
+            HorarioSeed::class,
         ]);
     }
 }

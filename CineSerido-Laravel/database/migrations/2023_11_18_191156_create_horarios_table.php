@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('data');
             $table->string('dia');
-            $table->string('horario');
+            $table->string('hora');
             $table->unsignedBigInteger('filme_id');
             $table->foreign('filme_id')->references('id')->on('filmes');
             $table->timestamps();
