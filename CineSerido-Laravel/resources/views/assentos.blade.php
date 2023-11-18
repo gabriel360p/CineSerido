@@ -87,14 +87,15 @@
                 </div>
 
                 <div class="col-lg-4 col-12">
-                    <form action="">
+                    <form method="POST" action="{{route('finalizar',$filme->id)}}">
+                        @csrf
                         <div class="mb-3 d-flex flex-column">
                             <div>
                                 <label for="" style="color:white;" class="form-label ">Escolha o Assento</label>
                             </div>
                             <div class="d-flex flex-row">
                                 <div>
-                                    <input class="form-control" required name="" id="" required
+                                    <input class="form-control" required name="assento" required
                                         placeholder="Escolha o Assento">
                                 </div>
 

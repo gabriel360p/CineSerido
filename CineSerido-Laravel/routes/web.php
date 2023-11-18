@@ -56,5 +56,5 @@ Route::controller(FilmeController::class)->group(function () {
 Route::controller(UtiliteController::class)->group(function () {
     Route::get('/sobre', 'sobre');
     Route::get('/assentos/{filme}', 'index')->name('assentos');
-
+    Route::post('/finalizar/{filme}', 'finalizar')->name('finalizar');
 });
