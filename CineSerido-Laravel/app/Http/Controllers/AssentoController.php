@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Assento;
+use App\Models\Filme;
 use Illuminate\Http\Request;
 
 class AssentoController extends Controller
@@ -10,9 +11,9 @@ class AssentoController extends Controller
     /**
      * Display a listing of the resource.
      */
-    public function index()
+    public function index(Filme $filme)
     {
-        //
+        return view('assentos',['assentos'=>Assento::all(),'filme'=>$filme]);
     }
 
     /**
@@ -20,7 +21,7 @@ class AssentoController extends Controller
      */
     public function create()
     {
-        //
+        
     }
 
     /**

@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <link rel="shortcut icon" href="{{asset('imgs/favicon.png')}}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('imgs/favicon.png') }}" type="image/x-icon">
 
     <title>CineSeridó</title>
 
@@ -16,6 +16,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <script src="https://kit.fontawesome.com/065cbb313e.js" crossorigin="anonymous"></script>
 
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Sono:wght@200;300;400;500;700&display=swap"

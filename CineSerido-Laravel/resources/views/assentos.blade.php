@@ -41,16 +41,14 @@
                                 <p style="color: white; text-align: justify;">{{ $filme->descricao }}</p>
 
                             </div>
-
-                            <h4 class="section-title mt-2 mb-2">Horários</h4>
-
                             <div class="custom-block-info">
                                 <div class="custom-block-top d-flex mb-1">
-                                    <a href="{{route('assentos',$filme->id)}}" style="background-color: #B5121B" class="btn btn-danger">
+                                    <span href="{{ route('assentos', $filme->id) }}" style="background-color: #B5121B"
+                                        class="btn btn-danger">
                                         {{ $filme->horario->data }}
                                         <br>
                                         {{ $filme->horario->hora }}
-                                    </a>
+                                    </span>
                                 </div>
                             </div>
                             </h4>
@@ -58,7 +56,64 @@
                         </div>
                     </div>
                 </div>
+
             </div>
+
+            <div class="row justify-content-center mt-5">
+                <div class="col-lg-12 col-12">
+                    <div class="section-title-wrap">
+                        <h5 class="section-title">Assentos</h5>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row justify-content-center mt-4">
+                <div class="col-lg-6 col-12">
+                    <img src="https://i.postimg.cc/fThCzMnr/assentos.jpg" alt="Assentos" style="width:100%">
+                </div>
+            </div>
+
+            <div class="row justify-content-center mt-4">
+
+                <div class="col-lg-4 col-12">
+                    <p style="color: white; text-align: justify;">Assentos Vagos:</p>
+
+                    <p style="color: white; text-align: justify;">
+                        A1; A1; A1; A1; A1; A1; A1; A1; A1; A1; A1; A1; A1; A1; A1; A1; A1; A1; A1; A1; A1; A1; A1; A1; A1;
+                        A1;
+                        A1; A1; A1; A1;
+                    </p>
+
+                </div>
+
+                <div class="col-lg-4 col-12">
+                    <form action="">
+                        <div class="mb-3 d-flex flex-column">
+                            <div>
+                                <label for="" style="color:white;" class="form-label ">Escolha o Assento</label>
+                            </div>
+                            <div class="d-flex flex-row">
+                                <div>
+                                    <input class="form-control" required name="" id="" required
+                                        placeholder="Escolha o Assento">
+                                </div>
+
+                                <div class="d-flex">
+                                    <button
+                                        style="background-color: #B5121B; border:none; border-radius:10px; color:white; margin-left:5px;"
+                                        class="btn" href=""><i class="fa-solid fa-arrow-right"
+                                            style="color: #ffffff;"></i></button>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
         </div>
+
     </section>
 @endsection
