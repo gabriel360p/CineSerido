@@ -10,10 +10,10 @@
                         <div class="col-lg-3 col-12">
                             <div class="custom-block-icon-wrap">
                                 <div class="custom-block-image-wrap custom-block-image-detail-page">
-                                    <a
+                                    <a title="Clique para ver o trailer"
                                         href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=&cad=rja&uact=8&ved=2ahUKEwijpeqwoLqCAxUOrZUCHT_BCmcQtwJ6BAgSEAI&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D0JZ8WGVSrwM&usg=AOvVaw2TuOKVCsSOoxUqoRyV8t4z&opi=89978449">
                                         <img src="http://localhost:8000/imgs/movies/Freira2.webp" class="img-fluid"
-                                            alt="">
+                                            alt="A freira 2">
                                     </a>
                                 </div>
                             </div>

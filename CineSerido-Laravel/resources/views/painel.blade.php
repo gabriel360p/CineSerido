@@ -95,102 +95,32 @@
                     </div>
                 </div>
 
-                <div class="col-lg-6 col-12 mb-4 mb-lg-0">
-                    <div class="custom-block d-flex align-items-center">
-                        <div style="width: 30%">
-                            <a href="/detalhes/vermelho-branco-sangue-azul" class="custom-block-image-wrap"><img
-                                    src="imgs/movies/rwrb.jpg" class=" img-fluid" alt=""></a>
-                        </div>
-
-                        <div class="custom-block-info" id="block-info" style="width: 70%; text-align: justify;">
-                            <div class="custom-block-top d-flex mb-1">
-                                <small class="me-4"><i class="bi-clock-fill custom-icon"></i> 120
-                                    Minutos</small>
+                @foreach ($filmes as $filme)
+                    <div class="col-lg-6 col-12 mb-4 mb-lg-0">
+                        <div class="custom-block d-flex align-items-center">
+                            <div style="width: 30%">
+                                <a href="{{route('filmes.detalhes',$filme->id)}}" class="custom-block-image-wrap"><img
+                                        src="{{ $filme->foto }}" class=" img-fluid" alt="{{$filme->titulo}}"></a>
                             </div>
 
-                            <h5 class="mb-2" id="movie-title"><a href="/detalhes/vermelho-branco-sangue-azul">Vermelho
-                                    Branco e Sangue Azul</a>
-                            </h5>
+                            <div class="custom-block-info" id="block-info" style="width: 70%; text-align: justify;">
+                                <div class="custom-block-top d-flex mb-1">
+                                    <small class="me-4"><i class="bi-clock-fill custom-icon"></i>
+                                        {{ $filme->tempo }}</small>
+                                </div>
 
-                            <p class="mb-0" style="font-size: 15px;" id="teste">Alex, o filho da presidenta
-                                dos Estados Unidos, se envolve em uma confusão com o príncipe britânico Henry, o que
-                                gera uma crise internacional de imagem. Os dois são grandes rivais, mas fingem que
-                                são amigos pelo bem de seus países. Porém, essa relação fria começa a derreter e dá
-                                lugar a um sentimento intenso e novo para os dois.</p>
-                        </div>
-                    </div>
-                </div>
+                                <h5 class="mb-2" id="movie-title"><a
+                                        href="{{route('filmes.detalhes',$filme->id)}}">{{ $filme->titulo }}</a>
+                                </h5>
 
-                <div class="col-lg-6 col-12 mb-4 mb-lg-0">
-                    <div class="custom-block d-flex align-items-center">
-                        <div style="width: 30%">
-                            <a href="/detalhes/a-freira2" class="custom-block-image-wrap"><img
-                                    src="imgs/movies/freira2.webp" class=" img-fluid" alt=""></a>
-                        </div>
-
-                        <div class="custom-block-info" style="width: 70%; text-align: justify;">
-                            <div class="custom-block-top d-flex mb-1">
-                                <small class="me-4"><i class="bi-clock-fill custom-icon"></i> 110
-                                    Minutos</small>
+                                <p class="mb-0" style="font-size: 15px;" id="teste">
+                                    {{ $filme->descricao }}
+                                </p>
                             </div>
-
-                            <h5 class="mb-2"><a href="/detalhes/a-freira2">A Freira 2</a></h5>
-
-                            <p class="mb-0"> 1956, na França, um padre é assassinado e parece que um mal está se
-                                espalhando.Determinada a deter o maligno, irmã Irene mais uma vez fica cara a cara
-                                com umaforça demoníaca.</p>
                         </div>
                     </div>
-                </div>
+                @endforeach
 
-
-                <div class="col-lg-6 col-12 mb-4 mb-lg-0 mt-3 textosH">
-                    <div class="custom-block d-flex align-items-center">
-                        <div style="width: 30%">
-                            <a href="/detalhes/guardioes-da-galaxia-3" class="custom-block-image-wrap"><img
-                                    src="imgs/movies/guardiosGalaxia3.jpg" style="width: 650px;" class=" img-fluid"
-                                    alt=""></a>
-                        </div>
-
-                        <div class="custom-block-info" style="width: 70%; text-align: justify;">
-                            <div class="custom-block-top d-flex mb-1">
-                                <small class="me-4"><i class="bi-clock-fill custom-icon"></i> 149
-                                    Minutos</small>
-                            </div>
-
-                            <h5 class=""><a href="/detalhes/guardioes-da-galaxia-3">Guardiões da Galáxia:
-                                    Volume 3</a></h5>
-
-                            <p class="mb-0">Peter Quill deve reunir sua equipe para defender o universo e
-                                proteger um dos seus. Se a missão não for totalmente bem-sucedida, isso pode levar
-                                ao fim dos Guardiões.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-6 col-12 mb-4 mb-lg-0 mt-3">
-                    <div class="custom-block d-flex align-items-center">
-                        <div style="width: 30%">
-                            <a href="/detalhes/five-nights-at-freddy" class="custom-block-image-wrap"><img
-                                    src="imgs/movies/fiveNights.jpg" style="width: auto" class=" img-fluid"
-                                    alt=""></a>
-                        </div>
-
-                        <div class="custom-block-info" style="width: 70%; text-align: justify;">
-                            <div class="custom-block-top d-flex mb-1">
-                                <small class="me-4"><i class="bi-clock-fill custom-icon"></i> 109
-                                    Minutos</small>
-                            </div>
-
-                            <h5 class="mb-2"><a href="/detalhes/five-nights-at-freddy">Five Nights at Freddy's -
-                                    O Pesadelo Sem Fim</a></h5>
-
-                            <p class="mb-0">No Freddy Fazbear's Pizza, robôs animados fazem a festa das crianças
-                                durante o dia. Mas, quando chega a noite, eles se transformam em assassinos
-                                psicopatas.</p>
-                        </div>
-                    </div>
-                </div>
             </div>
 
         </div>
@@ -295,7 +225,7 @@
                         <div class="custom-block-info">
                             <h5 class="mb-2">
                                 {{-- <a href=""> --}}
-                                    Combo Kids
+                                Combo Kids
                                 {{-- </a> --}}
                             </h5>
 
@@ -319,7 +249,7 @@
                         <div class="custom-block-info">
                             <h5 class="mb-2">
                                 {{-- <a href=""> --}}
-                                    Combo Tradicional
+                                Combo Tradicional
                                 {{-- </a> --}}
                             </h5>
 
@@ -343,7 +273,7 @@
                         <div class="custom-block-info">
                             <h5 class="mb-2">
                                 {{-- <a href=""> --}}
-                                    Combo Premium
+                                Combo Premium
                                 {{-- </a> --}}
                             </h5>
 
@@ -360,5 +290,4 @@
             </div>
         </div>
     </section>
-
 @endsection

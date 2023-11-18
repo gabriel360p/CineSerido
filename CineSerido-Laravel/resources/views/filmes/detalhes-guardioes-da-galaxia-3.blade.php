@@ -10,10 +10,10 @@
                         <div class="col-lg-3 col-12">
                             <div class="custom-block-icon-wrap">
                                 <div class="custom-block-image-wrap custom-block-image-detail-page">
-                                    <a
+                                    <a title="CLique para ver o trailer"
                                         href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=video&cd=&cad=rja&uact=8&ved=2ahUKEwi2zfbEoLqCAxVol5UCHWESAzQQtwJ6BAgUEAI&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dd1yNc9skssk&usg=AOvVaw1QtrhBOiqEGhHPtuRxeUhz&opi=89978449">
                                         <img src="http://localhost:8000/imgs/movies/guardiosGalaxia3.jpg" class="img-fluid"
-                                            alt="">
+                                            alt="Guardiões da Galáxia: Volume 3">
                                     </a>
                                 </div>
                             </div>

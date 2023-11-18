@@ -1,9 +1,11 @@
 <?php
 
 use App\Http\Controllers\AdmController;
+use App\Http\Controllers\FilmeController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\QuestionarioController;
 use App\Http\Controllers\UtiliteController;
+use App\Models\Filme;
 use App\Models\Resposta;
 
 /*
@@ -18,7 +20,7 @@ use App\Models\Resposta;
 */
 
 Route::get('/', function () {
-    return view('painel');
+    return view('painel',['filmes'=>Filme::all()]);
 });
 
 Route::get('/cadeira', function () {
@@ -38,10 +40,14 @@ Route::controller(QuestionarioController::class)->group(function () {
     Route::post('/questionario/salvar', 'store');
 });
 
+Route::controller(FilmeController::class)->group(function () {
+    Route::get('/filmes/detalhes/{filme}', 'show')->name('filmes.detalhes');
+});
+
 Route::controller(UtiliteController::class)->group(function () {
-    Route::get('/detalhes/a-freira2', 'freira');
-    Route::get('/detalhes/five-nights-at-freddy', 'fnaf');
-    Route::get('/detalhes/vermelho-branco-sangue-azul', 'royal');
-    Route::get('/detalhes/guardioes-da-galaxia-3', 'ga3');
+    // Route::get('/detalhes/a-freira2', 'freira');
+    // Route::get('/detalhes/five-nights-at-freddy', 'fnaf');
+    // Route::get('/detalhes/vermelho-branco-sangue-azul', 'royal');
+    // Route::get('/detalhes/guardioes-da-galaxia-3', 'ga3');
     Route::get('/sobre', 'sobre');
 });

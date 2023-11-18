@@ -18,5 +18,9 @@ class DatabaseSeeder extends Seeder
             "email"=> "admin@admin",
             "password"=> Hash::make("123456789"),
         ]);
+
+        $this->call([
+            FilmeSeed::class,
+        ]);
     }
 }
