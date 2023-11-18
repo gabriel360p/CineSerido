@@ -96,7 +96,7 @@
                 </div>
 
                 @foreach ($filmes as $filme)
-                    <div class="col-lg-6 col-12 mb-4 mb-lg-0">
+                    <div class="col-lg-6 col-12 mb-4  mt-4 mb-lg-0">
                         <div class="custom-block d-flex align-items-center">
                             <div style="width: 30%">
                                 <a href="{{ route('filmes.detalhes', $filme->id) }}" class="custom-block-image-wrap"><img
