@@ -14,6 +14,7 @@ return new class extends Migration
         Schema::create('assentos', function (Blueprint $table) {
             $table->id();
             $table->string('identificacao');
+            $table->boolean('vago')->nullable()->default(false);
             $table->timestamps();
         });
     }

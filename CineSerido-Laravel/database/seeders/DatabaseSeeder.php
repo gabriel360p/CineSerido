@@ -25,6 +25,7 @@ class DatabaseSeeder extends Seeder
             FilmeSeed::class,
             ComboSeed::class,
             HorarioSeed::class,
+            AssentoSeed::class,
         ]);
     }
 }
