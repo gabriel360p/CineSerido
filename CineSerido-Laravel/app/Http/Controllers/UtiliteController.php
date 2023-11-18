@@ -26,7 +26,7 @@ class UtiliteController extends Controller
         } else {
             $assento = Assento::where('identificacao', 'like', '%' . $request->assento . '%')->first();
             $assento->update(['vago' => true]);
-            return redirect(url('/'));
+            return view('finalizar',['filme'=>$filme]);
         }
     }
 }
