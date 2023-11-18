@@ -3,31 +3,17 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use App\Models\Assento;
+use App\Models\Filme;
 class UtiliteController extends Controller
 {
-    function fnaf()
-    {
-        return view('filmes.detalhes-five-nights-at-freddy');
-    }
-
-    function ga3()
-    {
-        return view('filmes.detalhes-guardioes-da-galaxia-3');
-    }
-
-    function freira()
-    {
-        return view('filmes.detalhes-freira2');
-    }
-
-    function royal()
-    {
-        return view('filmes.detalhes-vermelho-branco-sangue-azul');
-    }
-
     function sobre()
     {
         return view('sobre');
+    }
+
+    public function index(Filme $filme)
+    {
+        return view('assentos',['assentos'=>Assento::where('vago',false)->get(),'filme'=>$filme]);
     }
 }

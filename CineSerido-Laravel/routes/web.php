@@ -1,7 +1,6 @@
 <?php
 
 use App\Http\Controllers\AdmController;
-use App\Http\Controllers\AssentoController;
 use App\Http\Controllers\FilmeController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\QuestionarioController;
@@ -50,22 +49,12 @@ Route::controller(QuestionarioController::class)->group(function () {
 });
 
 
-
-
-Route::controller(AssentoController::class)->group(function () {
-    Route::get('/assentos/{filme}', 'index')->name('assentos');
-});
-
-
-
-
-
-
-
 Route::controller(FilmeController::class)->group(function () {
     Route::get('/filmes/detalhes/{filme}', 'show')->name('filmes.detalhes');
 });
 
 Route::controller(UtiliteController::class)->group(function () {
     Route::get('/sobre', 'sobre');
+    Route::get('/assentos/{filme}', 'index')->name('assentos');
+
 });

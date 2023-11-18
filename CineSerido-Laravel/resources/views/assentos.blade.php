@@ -79,9 +79,9 @@
                     <p style="color: white; text-align: justify;">Assentos Vagos:</p>
 
                     <p style="color: white; text-align: justify;">
-                        A1; A1; A1; A1; A1; A1; A1; A1; A1; A1; A1; A1; A1; A1; A1; A1; A1; A1; A1; A1; A1; A1; A1; A1; A1;
-                        A1;
-                        A1; A1; A1; A1;
+                        @foreach ($assentos as $assento)
+                            {{$assento->identificacao}}; 
+                        @endforeach
                     </p>
 
                 </div>
