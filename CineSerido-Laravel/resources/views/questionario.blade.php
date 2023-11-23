@@ -31,6 +31,10 @@
                                     CUMPRIDO ?</label>
                                 <textarea class="form-control" required name="resposta2" id="" rows="2" required
                                     placeholder="OBJETIVO PRINCIPAL FOI CUMPRIDO ?">{{ @old('resposta2') }}</textarea>
+
+                                @error('resposta2')
+                                    <span class="badge">{{ $message }}</span>
+                                @enderror
                             </div>
 
                         </div>
@@ -44,6 +48,9 @@
                                 <textarea class="form-control" required name="resposta3" id="" rows="2" required
                                     placeholder="FUNCIONAIDADES COMPREENSÍVEIS E DIRETAS ?
                           ">{{ @old('resposta3') }}</textarea>
+                                @error('resposta3')
+                                    <span class="badge">{{ $message }}</span>
+                                @enderror
                             </div>
 
                             <div class="mb-3">
@@ -51,6 +58,9 @@
                                     CUMPRIDO ?</label>
                                 <textarea required class="form-control" name="resposta4" id="" rows="2" required
                                     placeholder="ELEMENTOS ÚTEIS?">{{ @old('resposta4') }}</textarea>
+                                @error('resposta4')
+                                    <span class="badge">{{ $message }}</span>
+                                @enderror
                             </div>
 
                         </div>
@@ -65,6 +75,9 @@
                                 <textarea required class="form-control" name="resposta5" id="" rows="2" required
                                     placeholder="CONFORTO DE OPERAÇÃO (Nº DE CLIQUES) ?
                           ">{{ @old('resposta5') }}</textarea>
+                                @error('resposta5')
+                                    <span class="badge">{{ $message }}</span>
+                                @enderror
                             </div>
 
                             <div class="mb-3">
@@ -72,6 +85,9 @@
                                     ?</label>
                                 <textarea required class="form-control" name="resposta6" id="" rows="2" required
                                     placeholder="CREDIBILIDADE DE INFORMAÇÕES ?">{{ @old('resposta6') }}</textarea>
+                                @error('resposta6')
+                                    <span class="badge">{{ $message }}</span>
+                                @enderror
                             </div>
 
                         </div>
@@ -85,6 +101,9 @@
                                 <textarea required class="form-control" name="resposta7" id="" rows="2" required
                                     placeholder="ORGANIZAÇÃO DOS ELEMENTOS ?
                         ">{{ @old('resposta7') }}</textarea>
+                                @error('resposta7')
+                                    <span class="badge">{{ $message }}</span>
+                                @enderror
                             </div>
 
                             <div class="mb-3">
@@ -92,6 +111,9 @@
                                     CORES) ?</label>
                                 <textarea required class="form-control" name="resposta8" id="" rows="2" required
                                     placeholder="CORES (PALETA DE CORES) ?">{{ @old('resposta8') }}</textarea>
+                                @error('resposta8')
+                                    <span class="badge">{{ $message }}</span>
+                                @enderror
                             </div>
 
                         </div>
@@ -105,12 +127,18 @@
                                 <textarea required class="form-control" name="resposta9" id="" rows="2" required
                                     placeholder="ORGANIZAÇÃO DOS ELEMENTOS ?
                       ">{{ @old('resposta9') }}</textarea>
+                                @error('resposta9')
+                                    <span class="badge">{{ $message }}</span>
+                                @enderror
                             </div>
 
                             <div class="mb-3">
                                 <label for="" style="color:white;" class="form-label ">CONFORTO ?</label>
                                 <textarea required class="form-control" name="resposta10" id="" rows="2" required
                                     placeholder="CONFORTO ?">{{ @old('resposta10') }}</textarea>
+                                @error('resposta10')
+                                    <span class="badge">{{ $message }}</span>
+                                @enderror
                             </div>
 
                         </div>
@@ -124,6 +152,9 @@
                                 <textarea required class="form-control" name="resposta11" id="" rows="2" required
                                     placeholder="FEEDBACK?
                     ">{{ @old('resposta11') }}</textarea>
+                                @error('resposta11')
+                                    <span class="badge">{{ $message }}</span>
+                                @enderror
                             </div>
 
                             <div class="mb-3">
@@ -131,15 +162,27 @@
                                     ?</label>
                                 <textarea required class="form-control" name="resposta12" id="" rows="2" required
                                     placeholder="IDENTIDADE VISUAL ?">{{ @old('resposta12') }}</textarea>
+                                @error('resposta12')
+                                    <span class="badge">{{ $message }}</span>
+                                @enderror
                             </div>
 
                         </div>
                         <div class="col-lg-12 ms-auto text-center">
-                            <button style="width:300px; height:50px;" type="submit" class="btn btn-danger">Enviar</button>
+                            <button style="width:300px; height:50px;" type="submit" id="btn"
+                                class="btn btn-danger">Enviar</button>
                         </div>
                     </div>
                 </form>
             </div>
         </div>
     </section>
+
+    <script>
+        document.querySelector('button#btn').addEventListener('click', show)
+
+        function show() {
+            alert('A CineSeridó agradece pela sua avaliação!')
+        }
+    </script>
 @endsection

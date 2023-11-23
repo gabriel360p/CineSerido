@@ -29,7 +29,7 @@ Route::controller(AdmController::class)->group(function () {
 })->middleware(['auth']);
 
 Route::controller(QuestionarioController::class)->group(function () {
-    Route::get('/questionario', 'show');
+    Route::get('/questionario', 'show')->name('questionario');
     Route::post('/questionario/salvar', 'store');
 });
 

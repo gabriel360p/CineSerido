@@ -10,7 +10,7 @@ class QuestionarioController extends Controller
 {
     function show(Request $request)
     {
-        return view("questionario");
+        return view("questionario",['message'=>'']);
     }
 
     function store(ValidacaoQuestionario $request)
