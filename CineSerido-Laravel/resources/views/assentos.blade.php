@@ -87,7 +87,7 @@
                 </div>
 
                 <div class="col-lg-4 col-12">
-                    <form method="POST" action="{{route('finalizar',$filme->id)}}">
+                    <form method="POST" action="{{route('combos',$filme->id)}}">
                         @csrf
                         <div class="mb-3 d-flex flex-column">
                             <div>

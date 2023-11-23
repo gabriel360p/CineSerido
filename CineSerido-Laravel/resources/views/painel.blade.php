@@ -7,7 +7,7 @@
 
                 <div class="col-lg-12 col-12">
                     <div class="text-center mb-5 pb-2">
-                        <h1 class="text-white">Em Cartaz</h1>
+                        <h1 class="text-white">Lançamentos </h1>
                         <a href="#section_2" class="btn custom-btn smoothscroll mt-3">Em Cartaz</a>
                     </div>
 
@@ -126,7 +126,6 @@
         </div>
     </section>
 
-
     <section class="topics-section section-padding pb-0" id="section_3">
         <div class="container">
             <div class="row">
@@ -137,67 +136,28 @@
                     </div>
                 </div>
 
+                @foreach ($EmBreves as $EmBreve)
+                    <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
+                        <div class="custom-block custom-block-overlay">
 
-                <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
-                    <div class="custom-block custom-block-overlay">
-                        <span href="" class="custom-block-image-wrap">
-                            <img src="imgs/soon/marvels.jpg" class="custom-block-image img-fluid" alt="">
-                        </span>
+                            <span href="" class="custom-block-image-wrap">
+                                <a href="{{ url('/filmes/em-breve', $EmBreve->id) }}">
+                                    <img src="{{ $EmBreve->foto }}" class="custom-block-image img-fluid" alt="">
+                                </a>
+                            </span>
 
-                        <div class="custom-block-info custom-block-overlay-info">
-                            <h5 style="color:#B5121B;" class="mb-1"><span href="listing-page.html">As
-                                    Marvels</span></h5>
+                            <div class="custom-block-info custom-block-overlay-info">
+                                <h5 style="color:#B5121B;" class="mb-1"><span href="listing-page.html">
 
-                            <p class="badge mb-0"> Aventura/Ação </p>
+                                        <a href="{{ url('/filmes/em-breve', $EmBreve->id) }}">
+                                            {{ $EmBreve->titulo }}</span></h5>
+                                </a>
+
+                                <p class="badge mb-0"> {{ $EmBreve->categorias }}</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
-                    <div class="custom-block custom-block-overlay">
-                        <span href="" class="custom-block-image-wrap">
-                            <img src="imgs/soon/madame_web.jpeg" class="custom-block-image img-fluid" alt="">
-                        </span>
-
-                        <div class="custom-block-info custom-block-overlay-info">
-                            <h5 style="color:#B5121B;" class="mb-1"><span href="listing-page.html">Madame
-                                    Web</span></h5>
-
-                            <p class="badge mb-0">Ficção científica/Aventura</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
-                    <div class="custom-block custom-block-overlay">
-                        <span href="" class="custom-block-image-wrap">
-                            <img src="imgs/soon/spiderman.webp" class="custom-block-image img-fluid" alt="">
-                        </span>
-
-                        <div class="custom-block-info custom-block-overlay-info">
-                            <h5 style="color:#B5121B;" class="mb-1"><span href="listing-page.html"
-                                    style="font-size: 20px;">Homem-Aranha: Além do Aranhaverso</span></h5>
-
-                            <p class="badge mb-0">Ação/Aventura</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
-                    <div class="custom-block custom-block-overlay">
-                        <span href="" class="custom-block-image-wrap">
-                            <img src="imgs/soon/wonka.webp" class="custom-block-image img-fluid" alt="">
-                        </span>
-
-                        <div class="custom-block-info custom-block-overlay-info">
-                            <h5 style="color:#B5121B;" class="mb-1"><span href="listing-page.html">Wonka</span>
-                            </h5>
-
-                            <p class="badge mb-0">Fantasia/Aventura</p>
-                        </div>
-                    </div>
-                </div>
+                @endforeach
 
             </div>
         </div>

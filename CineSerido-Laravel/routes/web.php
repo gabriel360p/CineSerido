@@ -20,21 +20,6 @@ use App\Models\Resposta;
 |
 */
 
-Route::get('/', function () {
-    return view('painel', [
-        'filmes' => Filme::all(),
-        'combos' => Combo::all(),
-    ]);
-});
-Route::get('/a' , function () {
-    return view('ass', [
-    ]);
-});
-
-Route::get('/cadeira', function () {
-    return view('cadeira');
-});
-
 Route::get('/adm', [AdmController::class, 'login']);
 
 Route::controller(AdmController::class)->group(function () {
@@ -51,10 +36,14 @@ Route::controller(QuestionarioController::class)->group(function () {
 
 Route::controller(FilmeController::class)->group(function () {
     Route::get('/filmes/detalhes/{filme}', 'show')->name('filmes.detalhes');
+    Route::get('/filmes/em-breve/{emBreve}', 'em_breve')->name('filmes.em_breve');
 });
 
 Route::controller(UtiliteController::class)->group(function () {
+    Route::get('/', 'painel');
     Route::get('/sobre', 'sobre');
     Route::get('/assentos/{filme}', 'index')->name('assentos');
-    Route::post('/finalizar/{filme}', 'finalizar')->name('finalizar');
+    Route::post('/combos/{filme}', 'save')->name('assento.save');
+    Route::get('/combos/{filme}', 'combos')->name('combos');
+    Route::get('/finalizar/{filme}', 'finalizar')->name('finalizar');
 });

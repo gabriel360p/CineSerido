@@ -59,8 +59,8 @@ class FilmeSeed extends Seeder
             de seus países. Porém, essa relação fria começa a derreter e dá lugar a um
             sentimento
             intenso e novo para os dois.",
-            'tempo' => "",
-            'classificacao_indicativa' => "",
+            'tempo' => "118 Minutos",
+            'classificacao_indicativa' => "17",
         ]);
 
 

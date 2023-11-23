@@ -27,7 +27,7 @@
                                     @if ($filme->classificacao_indicativa <= 15)
                                         <small class="ms-auto"> <span
                                                 class="badge bg-success">{{ $filme->classificacao_indicativa }}</span></small>
-                                    @elseif($filme->classificacao_indicativa >= 15 && $filme->classificacao_indicativa < 17)
+                                    @elseif($filme->classificacao_indicativa >= 15 && $filme->classificacao_indicativa <= 17)
                                         <small class="ms-auto"> <span
                                                 class="badge bg-warning">{{ $filme->classificacao_indicativa }}</span></small>
                                     @elseif($filme->classificacao_indicativa >= 18)
